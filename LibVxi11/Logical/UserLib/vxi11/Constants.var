@@ -1,0 +1,15 @@
+VAR CONSTANT
+	rpcVxi11Program_c : UDINT := 395183;
+END_VAR
+(*vxiReadCall.Flags*)
+VAR CONSTANT
+	vxiFlag_Read_ReqCountReached : UDINT := 1;
+	vxiFlag_Read_TerminationCharSet : UDINT := 2;
+	vxiFlag_Read_SetEOI : UDINT := 4;
+END_VAR
+(*vxiWriteCall.Flags*)
+VAR CONSTANT
+	vxiFlag_Write_WaitUntilLocked : UDINT := 1;
+	vxiFlag_Write_SetEOI : UDINT := 8;
+	vxiFlag_Write_TerminationCharSet : UDINT := 128;
+END_VAR

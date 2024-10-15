@@ -1,0 +1,22 @@
+(*Parametres*)
+VAR
+	RemoteIP : STRING[80] := '10.254.254.20';
+	vxiDeviceName : STRING[80] := 'inst0';
+	vxiReqType : vxiReqType_e := vxiReqType_WR;
+	vxiRequest : STRING[100] := 'READ?';
+	vxiResponse : STRING[300];
+END_VAR
+(*vxi FB*)
+VAR
+	vxi_UT8805E : vxi11;
+END_VAR
+(*Debug and Status*)
+VAR
+	vxiConn : BOOL;
+	vxiUserSend : BOOL;
+END_VAR
+(*Numeric variable*)
+VAR
+	numEnableConv : BOOL;
+	numValue : REAL;
+END_VAR

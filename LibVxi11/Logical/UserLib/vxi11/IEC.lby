@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="0.9.0" SubType="IEC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported data types">Types.typ</File>
+    <File Description="Exported constants">Constants.var</File>
+    <File Description="Exported functions and function blocks">vxi11.fun</File>
+    <File TransferedForTargetSourceCompare="true">memSwitch.st</File>
+    <File TransferedForTargetSourceCompare="true">rpcGetPort.st</File>
+    <File TransferedForTargetSourceCompare="true">rpcGeneric.st</File>
+    <File TransferedForTargetSourceCompare="true">vxi11.st</File>
+    <File>README.md</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="AsTCP" />
+    <Dependency ObjectName="AsBrStr" />
+  </Dependencies>
+</Library>
